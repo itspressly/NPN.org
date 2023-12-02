@@ -1,0 +1,241 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
+body{
+    background-color: rgb(37, 150, 185);
+}
+
+.nav1 ul{
+    list-style-type: none;
+    background-color: rgba(12, 150, 255, 0.507);
+   padding: 0%;
+   margin: 0%;
+   overflow: hidden;
+   z-index: 10;
+   width: 100%;
+   border-radius: 10px;
+   display: flex;
+    position: relative;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 0px;
+   font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+.nav1 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.nav1 a:hover{
+    background-color: aqua;
+}
+
+.nav1 li{
+    float: left;
+}
+
+.nav1 video{
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   opacity: 0.8;
+}
+
+.nav1 h1{
+    position: relative;
+   z-index: 10;
+   
+}
+
+.nav1 ul img{
+    height: 45px;
+    left-padding: 10px;
+}
+
+.nav1 h5{
+    color: aquamarine;
+    font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+.nav1 h1{
+    background-color: rgba(127, 255, 212, 0);
+   width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Roboto', sans-serif;
+color: azure;
+animation-duration: 5s;
+animation-name: hp;
+animation-iteration-count: 1;
+animation-play-state: running;
+}
+/*
+@keyframes hp{
+    from{margin-top: 100%;}
+    to{margin-bottom: 0%;}
+}
+
+*/
+
+.nav1 p{
+    position: relative;
+    z-index: 10;
+   
+    padding: 5%;
+    font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Roboto', sans-serif;
+color: azure;
+}
+
+.price{
+    display: flex;
+    height:350px;
+    position: relative;
+    z-index: 10;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.farms{
+    background-color: aquamarine;
+    height: 310px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.farms img{
+    height: 75px;
+    border-radius: 5px;
+   width: 120px;
+}
+
+.business{
+    background-color: aquamarine;
+    height: 310px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.business img{
+    height: 90px;
+    border-radius: 5px;
+}
+
+.factory{
+    background-color: aquamarine;
+    height: 310px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.factory img{
+    height: 110px;
+    border-radius: 5px;
+}
+
+.police img{
+    height: 90px;
+    border-radius: 5px;
+   
+}
+
+.police{
+    background-color: aquamarine;
+    height: 310px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.contact{
+    height: 300px;
+    background-color: rgb(24, 18, 10);
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.fun{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 90px;
+}
+
+.icon img{
+    height: 50px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+     height: 90px;
+     
+}
+
+.icon2{
+    
+    width: 450px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
