@@ -239,3 +239,14 @@ color: azure;
     align-items: center;
     justify-content: space-between;
 }
+.money{
+    height: 10px;
+}
+
+#bigfoot{
+    height: 15px;
+}
+
+#scane{
+    width: 10px;
+}
